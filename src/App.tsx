@@ -1,6 +1,5 @@
 import { lazy } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import './App.css'
 
 const Login = lazy(() =>
   import('./client/login/components/Login').then(({ Login }) => ({
