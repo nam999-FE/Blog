@@ -20,7 +20,8 @@ module.exports = {
         teal: "#20c997",
         cyan: "#17a2b8",
         white: "#fff",
-        gray: "#7d879c",
+        gray: "#e3e9ef",
+        focus: '#fe696a4d',
         grayDark: "#373f50",
         success: "#42d697",
         info: "#69b3fe",
@@ -38,6 +39,9 @@ module.exports = {
       },
       maxWidth: {
         sm: '500px'
+      },
+      margin: {
+        negative1: '-1px'
       }
     },
   },

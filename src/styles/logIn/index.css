@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-login {
+  @apply block w-full px-4 py-2 text-xl border-gray bg-white border border-solid rounded m-0 focus:outline-focus;
+  box-shadow: 0 0 0 0 transparent, 0 0.375rem 0.625rem -0.3125rem rgb(254 105 106 / 15%);
+}
+
+.check {
+  @apply appearance-none border rounded-sm bg-white focus:outline-none;
+}
+
+.nav-link::before {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0.25rem;
+  width: calc(100% - (0.25rem * 1));
+  height: 1px;
+  transition: color .25s ease-in-out,background-color .25s ease-in-out,box-shadow .25s ease-in-out,border-color .25s ease-in-out;
+  background-color: transparent;
+  content: '';
+}
